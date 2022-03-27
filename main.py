@@ -28,7 +28,7 @@ sn.heatmap(confusion_matrix, annot=True)
 print('Accuracy - F1 Score - Micro: ', metrics.accuracy_score(Y_test, Y_pred))
 print('F1 Score - Macro: ', metrics.f1_score(Y_test, Y_pred, average='macro'))
 print('F1 Score - Weighted: ', metrics.f1_score(Y_test, Y_pred, average='weighted'))
-plt.savefig(fname="metrics.png", dpi=300, bbox_inches="tight")
+#plt.savefig(fname="metrics.png", dpi=300, bbox_inches="tight")
 
 
 # Actual disease
