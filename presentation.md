@@ -64,12 +64,7 @@ Source: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-0
 - **F1 Score - Micro:**  0.7888829502939605
 - **F1 Score - Macro:**  0.6092643971812871
 - **F1 Score - Weighted:**  0.7535328039740695
-
----
-
-# Improving the dataset
-
-- Include q-values -> FDR
+- **Cohen’s kappa score:**  0.6355790715803891
 
 ---
 
@@ -80,20 +75,7 @@ Source: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-0
 
 ---
 
-# How to write slides
+# Improving the dataset
 
-Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
-
-```markdown
-# Slide 1
-
-foobar
-
----
-
-# Slide 2
-
-foobar
-```
-
-
+- Include q-values -> FDR
+- Labels before features
